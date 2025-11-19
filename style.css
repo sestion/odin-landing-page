@@ -1,8 +1,23 @@
+/* Shared Styles */
+
+.header,
+.footer {
+    background-color: #1F2937;
+    padding: 0px 64px;
+}
+
+.header-links a,
+.footer p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 /* Main */
 
 .main {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     font-family: Roboto, sans-serif;
     margin: 0;
 }
@@ -13,8 +28,6 @@
     display: flex;
     align-items: center;
     justify-content: stretch;
-    background-color: #1F2937;
-    padding: 0px 64px;
 }
 
 .header-logo {
@@ -29,7 +42,13 @@
 }
 
 .header-links a {
-    font-size: 18px;
-    color: #E5E7EB;
     text-decoration: none;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
