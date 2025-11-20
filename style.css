@@ -4,7 +4,8 @@
 .footer,
 .hero,
 .information,
-.quotes {
+.quotes,
+.cta-container {
     padding: 0px 128px;
 }
 
@@ -184,4 +185,47 @@
 .quote-author {
     font-weight: bold;
     align-self: flex-end;
+}
+
+/* Call to action */
+
+.cta-container {
+    /* border: 1px solid red; */
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 16px auto;
+}
+
+.cta {
+    /* border: 1px solid red; */
+    background-color: #3882F6;
+    border-radius: 16px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 64px;
+}
+
+.cta-main-text {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 0;
+}
+
+.cta-secondary-text {
+    color: #E5E7EB;
+    margin-top: 0px;
+}
+
+.cta-button {
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding: 4px 16px;
 }
